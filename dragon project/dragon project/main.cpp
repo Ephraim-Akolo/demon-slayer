@@ -36,7 +36,6 @@ int main(int argc, char** argv)
 
 	SDL_Surface *icon = IMG_Load(ICONPIC);
 	SDL_SetWindowIcon(mainwin.window, icon);
-	system("clear");
 
 	int a = 0;
 	bool done = false;
