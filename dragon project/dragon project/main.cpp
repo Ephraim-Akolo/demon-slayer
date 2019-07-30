@@ -24,5 +24,9 @@ int main(int argc,char* argv[])
 	{
 		std::cout << Mix_GetError << std::endl;
 	}
+	if (IMG_Init(IMG_INIT_PNG) < 0)
+	{
+		std::cout << IMG_GetError << std::endl;
+	}
 	return 0;
 }
